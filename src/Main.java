@@ -16,5 +16,9 @@ public class Main {
         //Starting the Threads
         countThread.start();
         dateThread.start();
+
+        //Bei einem Count von 20 Laufen die beiden Threads nacheinander ab
+        //Bei Höheren Counts fangen sie ab ca 25 an Nebeneinander abzulaufen und die Ausgaben kommen durcheinander
+        //meistens wird der DatePrinter früher fertig und die letzten Ausgaben sind nur noch Zahlen des CountPrinters
     }
 }
