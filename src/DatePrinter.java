@@ -12,7 +12,7 @@ public class DatePrinter implements Runnable{
 
     @Override
     public void run() {
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 20000; i++) {
             System.out.printf("Datum&Uhrzeit:%s%n", date);
         }
     }
